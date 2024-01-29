@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Gabarito', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: solid black .5px;
+    gap: 10px;
+}
+
+.navbar__s1__title{
+    color: #a435f0;
+}
+
+.navbar__s2{
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 3em;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar__s2 input{
+    border: none;
+    width: 100%;
+    font-size: 16px;
+}
+
+.navbar__s2 input:focus{
+    outline: none;
+}
+.navbar__s3{
+    display: flex;
+    align-items: center;
+    gap:  10px;
+}
+.categories{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+}
+
+.categories p{
+    border-radius: 3em;
+    padding: 10px;
+    background-color: #a435f0;
+    cursor: pointer;
+}
+.sale-img img{
+    width: 100%;
+}
+
+.recommended,.popular{
+    padding: 50px;
+}
+
+.recommended__container,.popular__container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+
+.course-card{
+    width: 240px;
+    margin-top: 10px;
+}
+
+.course-card img{
+    height: 70%;
+    width: 100%;
+}
+
+.topics {
+    padding: 50px;
+}
+
+.topics__container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.topics__container p{
+    border: solid gray 1px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+    cursor: pointer;
+}
+
+.topics__container p:hover{
+    background-color: gray;
+    color: black;
+}
+
+.footer{
+    padding-left: 50px;
+    padding-top: 20px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.footer__one{
+    display: flex;
+    gap: 20px;
+}
+.footer__one p{
+    margin: 15px;
+    cursor: pointer;
+}
+.footer__two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 15px;
+}
